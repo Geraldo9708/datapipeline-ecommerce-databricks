@@ -1,0 +1,23 @@
+# Python / Databricks
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+
+# Envs & secrets
+.env
+.env.*
+*.env
+
+# Data (grande ou sensível) – manter amostras pequenas apenas
+data/*.parquet
+data/*.csv
+data/*.jsonl
+data/raw/
+data/tmp/
+
+# Docs
+docs/screenshots/*.png
+docs/screenshots/*.jpg
